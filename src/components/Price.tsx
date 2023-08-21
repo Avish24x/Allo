@@ -29,8 +29,8 @@ const Price = ({ price, id, options }: Props) => {
             key={option.title}
             className="min-w-[6rem] p-2 ring-1 ring-sky-400 rounded-md"
             style={{
-              background: selected === index ? "rgb(248 113 113)" : "white",
-              color: selected === index ? "white" : "red",
+              background: selected === index ? "rgb(56, 189, 248)" : "white",
+              color: selected === index ? "white" : "black",
             }}
             onClick={() => setSelected(index)}
           >
