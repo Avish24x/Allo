@@ -364,18 +364,18 @@ type Menu = {
 export const menu: Menu = [
   {
     id: 1,
-    slug: "pastas",
-    title: "Italian Pastas",
+    slug: "Salades",
+    title: "Fresh Salades",
     desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
-    img: "/temporary/m1.png",
-    color: "white",
+    img: "/temporary/mt.jpg",
+    color: "black",
   },
   {
     id: 2,
     slug: "burgers",
     title: "Juicy Burgers",
     desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
-    img: "/temporary/m2.png",
+    img: "/temporary/st.jpg",
     color: "black",
   },
   {
@@ -383,7 +383,15 @@ export const menu: Menu = [
     slug: "pizzas",
     title: "Cheesy Pizzas",
     desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
-    img: "/temporary/m3.png",
-    color: "white",
+    img: "/temporary/sp.jpg",
+    color: "black",
+  },
+  {
+    id: 3,
+    slug: "Panini",
+    title: "X-Panini",
+    desc: "Panini Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    img: "/temporary/px.jpg",
+    color: "black",
   },
 ];
