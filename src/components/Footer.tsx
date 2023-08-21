@@ -3,11 +3,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-12 md:h-24 p-4 lg:p-20 xl:p-40 text-sky-500 flex items-center justify-between">
+    <div className="bg-sky-500 text-white h-12 md:h-24 p-4 md:p-8 lg:p-12 xl:p-16 flex items-center justify-between">
       <Link href="/" className="font-bold text-xl">
         ALLO
       </Link>
-      <p> &#169; All Right Reserved.</p>
+      <p>&#169; Avish Taukoorah All Rights Reserved.</p>
     </div>
   );
 };
