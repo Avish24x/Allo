@@ -1,7 +1,13 @@
-import React from "react";
+import Featured from "@/components/Featured";
+import Offer from "@/components/Offer";
+import Slider from "@/components/Slider";
 
-const SingleProductPage = () => {
-  return <div>SingleProductPage</div>;
-};
-
-export default SingleProductPage;
+export default function Home() {
+  return (
+    <main>
+      <Slider />
+      <Featured />
+      <Offer />
+    </main>
+  );
+}
