@@ -21,7 +21,7 @@ const Price = ({ price, id, options }: Props) => {
 
   return (
     <div className="flex flex-col gap-4">
-      <h2 className="text-2xl font-bold">${total.toFixed(2)}</h2>
+      <h2 className="text-2xl font-bold">Rs{total.toFixed(2)}</h2>
       {/* OPTIONS CONTAINER */}
       <div className="flex gap-4">
         {options?.map((option, index) => (
@@ -41,7 +41,7 @@ const Price = ({ price, id, options }: Props) => {
       {/* QUANTITY AND ADD BUTTON CONTAINER */}
       <div className="flex justify-between items-center">
         {/* QUANTITY */}
-        <div className="flex justify-between w-full p-3 ring-1 ring-red-500">
+        <div className="flex justify-between w-full p-3 ring-1 ring-sky-500">
           <span>Quantity</span>
           <div className="flex gap-4 items-center">
             <button
@@ -58,7 +58,7 @@ const Price = ({ price, id, options }: Props) => {
           </div>
         </div>
         {/* CART BUTTON */}
-        <button className="uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500">
+        <button className="uppercase w-56 bg-sky-500 text-white p-3 ring-1 ring-sky-500">
           Add to Cart
         </button>
       </div>
