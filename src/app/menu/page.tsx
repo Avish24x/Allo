@@ -18,7 +18,7 @@ const MenuPage = () => {
             <h1 className="uppercase font-bold text-3xl">{category.title}</h1>
             <p className="text-sm my-8">{category.desc}</p>
             <button
-              className={`hidden hover:scale-105 2xl:block bg-${category.color} py-2 px-4 rounded-md`}
+              className={`hidden hover:scale-105 duration-200 2xl:block bg-${category.color} py-2 px-4 rounded-md`}
             >
               Explore
             </button>

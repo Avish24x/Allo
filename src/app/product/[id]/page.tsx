@@ -22,7 +22,7 @@ const SingleProductPage = () => {
         <h1 className="text-3xl font-bold uppercase xl:text-5xl">
           {singleProduct.title}
         </h1>
-        <p>{singleProduct.desc}</p>
+        <p className="py-2">{singleProduct.desc}</p>
         <Price
           price={singleProduct.price}
           id={singleProduct.id}
