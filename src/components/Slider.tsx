@@ -28,15 +28,15 @@ const Slider = () => {
 
   // useEffect to change the slider images interval 2000
 
-  // useEffect(() => {
-  //   const interval = setInterval(
-  //     // slider on 3 break down need to add this to prevent need to loop through it
-  //     () =>
-  //       SetCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1)),
-  //     2000
-  //   );
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(
+      // slider on 3 break down need to add this to prevent need to loop through it
+      () =>
+        SetCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1)),
+      3000
+    );
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row">
