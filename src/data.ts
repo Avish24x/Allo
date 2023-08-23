@@ -364,9 +364,9 @@ type Menu = {
 export const menu: Menu = [
   {
     id: 1,
-    slug: "Salades",
-    title: "Fresh Salades",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+    slug: "Salads",
+    title: "Fresh Salads",
+    desc: "Experience freshness like never before with our handcrafted salads.",
     img: "/temporary/mt.jpg",
     color: "black",
   },

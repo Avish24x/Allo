@@ -33,7 +33,7 @@ const Slider = () => {
       // slider on 3 break down need to add this to prevent need to loop through it
       () =>
         SetCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1)),
-      3000
+      5000
     );
     return () => clearInterval(interval);
   }, []);
