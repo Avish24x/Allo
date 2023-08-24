@@ -42,7 +42,6 @@ const Menu = () => {
 
       {/* to avoid overflowing of the page remove notification bar and pagelogo height */}
 
-      
       {/* show burger menu on open when clicked closes */}
       {open && (
         <div className="bg-sky-500 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex flex-col gap-8 items-center justify-center text-3xl z-10">

@@ -390,8 +390,16 @@ export const menu: Menu = [
     id: 3,
     slug: "Panini",
     title: "X-Panini",
-    desc: "Panini Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    desc: ": Enjoy the best of both worlds: a crunchy exterior and a flavorful interior in our panini.",
     img: "/temporary/px.jpg",
+    color: "black",
+  },
+  {
+    id: 4,
+    slug: "Drinks",
+    title: "Soft-Drinks",
+    desc: "A selection of invigorating soft drinks to reenergize your senses.",
+    img: "/temporary/rr.jpg",
     color: "black",
   },
 ];
