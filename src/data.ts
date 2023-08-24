@@ -361,13 +361,14 @@ type Menu = {
   color: string;
 }[];
 
+
 export const menu: Menu = [
   {
     id: 1,
     slug: "Salads",
     title: "Fresh Salads",
     desc: "Experience freshness like never before with our handcrafted salads.",
-    img: "/temporary/mt.jpg",
+    img: "/temporary/sl.jpg",
     color: "black",
   },
   {
@@ -400,6 +401,14 @@ export const menu: Menu = [
     title: "Soft-Drinks",
     desc: "A selection of invigorating soft drinks to reenergize your senses.",
     img: "/temporary/rr.jpg",
+    color: "black",
+  },
+  {
+    id: 5,
+    slug: "Desserts",
+    title: "Desserts",
+    desc: "Discover a taste of heaven with our heavenly dessert treats.",
+    img: "/temporary/dd.jpg",
     color: "black",
   },
 ];
