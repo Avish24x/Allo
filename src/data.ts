@@ -361,14 +361,13 @@ type Menu = {
   color: string;
 }[];
 
-
 export const menu: Menu = [
   {
     id: 1,
     slug: "Salads",
     title: "Fresh Salads",
     desc: "Experience freshness like never before with our handcrafted salads.",
-    img: "/temporary/sl.jpg",
+    img: "/temporary/ss.jpg",
     color: "black",
   },
   {
